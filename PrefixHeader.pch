@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  ParseXML
+//
+//  Created by Procesos on 18/12/15.
+//  Copyright © 2015 PMP. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define DOMAIN_URL @"https://testws.punto-web.com/"
+#define WSDL_PATH @"wcfBonus/Service.svc?wsdl"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
